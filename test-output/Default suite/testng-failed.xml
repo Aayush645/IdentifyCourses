@@ -3,14 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Hackathon.IdentifyCourses3.MainTest">
+      <class name="Hackathon.IdentifyCourses3.MainTest2">
         <methods>
-          <include name="close"/>
-          <include name="testBussiness"/>
+          <include name="validateInvalidEmail"/>
+          <include name="ExtentReportSetup"/>
+          <include name="validateSearchButton"/>
           <include name="driverSetup"/>
-          <include name="searchText"/>
+          <include name="validateLevelDropdownMenu"/>
+          <include name="validateEdxBussinessLink"/>
+          <include name="validateCourseDetailPage"/>
+          <include name="validateLanguagesDropdownMenu"/>
+          <include name="close"/>
+          <include name="validateHomePageButton"/>
         </methods>
-      </class> <!-- Hackathon.IdentifyCourses3.MainTest -->
+      </class> <!-- Hackathon.IdentifyCourses3.MainTest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
