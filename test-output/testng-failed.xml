@@ -3,20 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Hackathon.IdentifyCourses3.MainTest2">
+      <class name="Hackathon.IdentifyCourses3.MainTest">
         <methods>
-          <include name="validateInvalidEmail"/>
-          <include name="ExtentReportSetup"/>
-          <include name="validateSearchButton"/>
-          <include name="driverSetup"/>
-          <include name="validateLevelDropdownMenu"/>
-          <include name="validateEdxBussinessLink"/>
-          <include name="validateCourseDetailPage"/>
-          <include name="validateLanguagesDropdownMenu"/>
-          <include name="close"/>
+          <include name="Setup"/>
           <include name="validateHomePageButton"/>
+          <include name="close"/>
+          <include name="validateCourseDetail1Page"/>
+          <include name="validateEdxBussinessLink"/>
+          <include name="ExtentReportSetup"/>
+          <include name="testStatus"/>
+          <include name="validateSearchBox"/>
+          <include name="validateLanguagesDropdownMenu"/>
+          <include name="validateLevelDropdownMenu"/>
+          <include name="validateInvalidEmail"/>
+          <include name="validateCourseTab"/>
+          <include name="validateCourseDetail2Page"/>
+          <include name="validateSearchButton"/>
         </methods>
-      </class> <!-- Hackathon.IdentifyCourses3.MainTest2 -->
+      </class> <!-- Hackathon.IdentifyCourses3.MainTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
